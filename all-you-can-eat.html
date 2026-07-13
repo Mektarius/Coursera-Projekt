@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>  
+    <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>All You Can Eat - China Mongo Buffet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+  
+<!-- navigation spinnt am handy, zeilenumbruch morgen mit tutor besprechen -->
+<header>
+<nav class="navbar navbar-default" id="header-nav">
+  <div class="container-fluid">
+            
+    <div class="navbar-header">
+       <!-- TODO: bildgroesse fuer tablets noch checken, wirkt gestaucht -->
+       <a href="index.html" class="pull-left visible-md visible-lg"><div id="logo-img" alt="Logo image"></div></a>
+                <div class="navbar-brand">
+       <a class="brand-link" href="index.html"><h1>China Mongo Buffet</h1></a>
+                    <p id="kosher-cert">
+             <span class="kosher-text">* Täglich frisches Buffet</span>
+                    </p>
+                </div>
+                <button aria-expanded="false" data-target="#collapsable-nav" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+       <ul class="nav navbar-nav navbar-right" id="nav-list">
+         <li><a href='index.html'><span class="custom-icon">🏠</span> Home</a></li>
+         <li><a href="menu-categories.html"><span class="custom-icon">🍽️</span> Menü</a></li>
+         <li class="active"><a href='specials.html'><span class="custom-icon">✨</span> Angebote</a></li>
+         <li><a href="index.html#about"><span class="custom-icon">ℹ️</span> Über uns</a></li>
+         <li><a href="index.html#awards"><span class="custom-icon">🏆</span> Auszeichnungen</a></li>
+         <li id="phone-alt">
+             <a href="tel:02261123456">
+                <span>02261 123456</span><br><span class="delivery-text">* Wir liefern frei Haus</span>
+             </a>
+         </li>
+       </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<div id="main-content" class="container">
+ <h2 id="buffet-haupttitel-gummersbach" class="text-center">All You Can Eat Buffet</h2>
+ <p id="buffet-untertitel-gummersbach" class="text-center">Unser großes Abendbuffet mit Live-Cooking, Sushi und traditionellen warmen Speisen.</p>
+
+ <!-- preiskasten gummersbach wiesenstrasse -->
+ <div id="gummersbach-buffet-preisbox">
+        
+   <div id="gummersbach-buffet-zeiten">
+            <h3 class="text-center">Zeiten & Preise</h3>
+     <p style="font-size: 1.3em; margin: 10px 0; color: #079C16; font-weight: bold;" class="text-center">Täglich von 18:00 - 22:00 Uhr</p>
+     <p class="text-center" style="font-size: 1.2em;">Erwachsene: <span style="font-weight: bold; color: #f6b319;">19,99 €</span> | Kinder (unter 10 Jahren): <span style="font-weight: bold; color: #f6b319;">9,99 €</span></p>
+        </div>
+
+   <div id="gummersbach-buffet-liste">
+            <h3 class="text-center">Was ist inklusive?</h3>
+     <ul id="buffet-features-liste">
+                <li>🍣 <strong>Frische Sushi-Bar:</strong> Große Auswahl an handgerollten Rolls, Nigiri und Maki.</li>
+                <li>🔥 <strong>Live Mongolischer Grill:</strong> Wählen Sie Ihre frischen Zutaten und lassen Sie sie vom Chefkoch im Wok zubereiten!</li>
+                <li>🍲 <strong>Warme Hauptspeisen:</strong> Knuspriges Hähnchen, Rindfleisch mit Brokkoli, Frühlingsrollen und gebratener Reis.</li>
+                <li>🍦 <strong>Dessertbuffet:</strong> Frisches Obst, Eiscreme, gebackene Bananen und und süße Überraschungen.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="text-center">
+   <a href="specials.html" id="zurueck-button-bistro" class="btn btn-default">Zurück zu den Angeboten</a>
+    </div>
+</div>
+
+<!-- Fußleiste über Restaurant infos -->
+
+<footer class="panel-footer" style="margin-bottom: 0px !important;">
+    <div class="container">
+ <div class="fusszeilen-reihe" id="unten-links-rechts-kombi">
+            
+            <div class="fusszeilen-spalte">
+                <span>Unsere Zeiten</span>
+                <p>Dienstag - Sonntag: 11:30 - 22:30 Uhr<br>Freitag & Samstag: bis 23:30 Uhr<br>Montag: Ruhetag</p>
+            </div>
+            
+            <div class="fusszeilen-spalte">
+                <span>Direktruf</span>
+                <p>Frische Wok-Küche<br>Eigener Lieferdienst<br>Tel: 02261 987654</p>
+            </div>
+            
+            <div class="fusszeilen-spalte">
+                <span>Standort</span>
+                     <p>Asia Bistro Dynastie Gummersbach<br>Kaiserstraße 42<br>51643 Gummersbach</p>
+            </div>
+            
+        </div>
+        
+        <div class="text-center" id="copyright" style="margin-top: 20px; color: #aaa; font-size: 0.9em;">
+            &copy; 2026 Asia Bistro Dynastie. Alle Rechte vorbehalten.
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
